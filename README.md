@@ -1,11 +1,12 @@
 Canduits.Owin.Security.Dropbox
 ==============================
 
-MVC5 and WebAPI2 middleware OWIN authentication provider for 
+MVC5 and WebAPI2 middleware OWIN authentication provider for Dropbox.
 
-More to come!
+NOTE: I'm not maintaining this any longer as other people have jumped on the solution and maintained it far better than I have. See solutions like https://github.com/TerribleDev/OwinOAuthProviders
+
+Further information
 ==============================
-
-I only had enough time to get this online tonight and also live on nuget. So stay tuned and I shall publish more information on the project soon! In the meantime just know that this lib is meant to work exactly as the Microsoft owin libraries work for twitter and Facebook. 
+This lib is meant to work exactly as the Microsoft owin libraries work for twitter and Facebook. 
 
 In an MVC style project just reference this dll, go to the app start code and use app.UseDropboxAuthentication(key, secret); 
